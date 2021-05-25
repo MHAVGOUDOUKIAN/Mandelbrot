@@ -26,7 +26,7 @@ def verif_ab (a,b):
 
 def plot():
     
-    a = 200
+    a = 200 #Nombre de points pour dessiner l'ensemble (à abaisser si le script est trop lent)
     
     plt.axis([-2.1,0.6,-1.2,1.2])
     plt.grid()
